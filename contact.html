@@ -99,36 +99,39 @@
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
                 <!-- modify this form HTML and place wherever you want your form -->
-
-                <form
-  action="https://formspree.io/f/xpzbnddl"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
                 
-                               
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzbnddl" method="post">
-                    <fieldset id="fs-frm-inputs">
-                    <label for="full-name">Full Name</label>
-                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                    <label for="email-address">Email Address</label>
-                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                    <label for="message">Message</label>
-                        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    </fieldset>
+                
+                <form>
+                    First name:<br>
+                    <input type="text" name="firstname"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname">
                     <input type="submit" value="Submit">
                 </form>
+                
+                
+                <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  First name:<br>
+  <input type="text" name="entry.810989529" id="entry.810989529"><br>
+  Last name:<br>
+  <input type="text" name="entry.463380756" id="entry.463380756">
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                
+                
+                <script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+
+       
+
                                      
                    
             </div>
@@ -143,10 +146,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
-                        <li><a href="facebook.com"><i class='fa fa-home'></i> Home</a></li>
                         <li>
                             <a href="#">
-                                <span class="fa-stack fa-lg">Heyooooooooooo
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                     
@@ -165,7 +166,7 @@
                             <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-linkedin-in fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
