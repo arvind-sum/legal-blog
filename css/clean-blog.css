@@ -394,12 +394,12 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-blog-heading {
+.blog-heading {
   font-size: 30px;
   margin-top: 60px;
   font-weight: 700; 
 }
 
-citation {
+.citation {
   font-size: 15px;
 }
