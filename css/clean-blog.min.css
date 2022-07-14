@@ -73,28 +73,27 @@ hr.small{
 }
 
 @media only screen and (min-width:768px){
-.navbar-custom{
-  background:0 0;
-  border-bottom:1px solid transparent
-  }
-.svg{
-  margin-top: -118px;
-  margin-left: -20px;
-  }
-.navbar-custom .navbar-brand path{
-  color:#fff;
-  padding:20px;
-  fill:#ffffff 
-  }
-.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus {
-  color:rgba(255,255,255,.8)
-  }
+  .navbar-custom{
+    background:0 0;
+    border-bottom:1px solid transparent
+   }
+  .svg{
+    margin-top: -118px;
+    margin-left: -20px;
+   }
+  .navbar-custom .navbar-brand path{
+    color:#fff;
+    padding:20px;
+    fill:#ffffff; 
+   }
+  .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus {
+    color:rgba(255,255,255,.8);
+   }
   .navbar-custom .nav li a{
     color:#fff;
     padding:20px;
     transition: transform .2s;
   }
-
   .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
     color:rgba(255,255,255,.8);
     -webkit-transform: scale(1.05);
