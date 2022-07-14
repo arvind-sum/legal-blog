@@ -90,7 +90,12 @@ hr.small{
   color:rgba(255,255,255,.8)
   }
   .navbar-custom .nav li a{
-    color:#fff;padding:20px
+    color:#fff;
+    padding:20px;
+  }
+  .navbar-custom .nav li a:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
   }
   .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
     color:rgba(255,255,255,.8)
