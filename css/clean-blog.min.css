@@ -84,7 +84,7 @@ hr.small{
 .navbar-custom .navbar-brand path{
   color:#fff;
   padding:20px;
-  fill:#ffffff !important
+  fill:#ffffff 
   }
 .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus {
   color:rgba(255,255,255,.8)
@@ -125,7 +125,7 @@ hr.small{
   }
   .navbar-custom.is-fixed .navbar-brand path{
     color:#ffffff;
-    fill:#ffffff !important
+    fill:#ffffff 
   }
   .navbar-custom.is-fixed .navbar-brand:hover,.navbar-custom.is-fixed .navbar-brand:focus{
     color:#737170
