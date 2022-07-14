@@ -97,7 +97,7 @@ hr.small{
   .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
     color:rgba(255,255,255,.8);
     -webkit-transform: scale(1.05);
-    transform: scale(1.2);
+    transform: scale(1.4);
   }
 }
 
