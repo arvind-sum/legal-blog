@@ -250,8 +250,8 @@ c-13 0 -30 -4 -38 -9z"/>
                     <li>Indian and Singapore provides for an imprisonment of 7 to 10 years of either description and fine under sections 312 – 316 of their respective penal codes.</li>
                     <li>Canada provide an imprisonment of imprisonment of 5 years under the section 233 of Canadian criminal code.</li>
                   </ul>
-                  <a href="#">
-                      <img class="img-responsive" src="../img/postimgs/abortion.jpeg" alt="">
+                  <a>
+                      <img onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive" src="../img/postimgs/abortion.jpeg" alt="">
                   </a>
 
                   <p class="blog-heading">SIMILARITIES AND DIFFERENCES</p>
@@ -319,8 +319,8 @@ c-13 0 -30 -4 -38 -9z"/>
                     <li>Unwanted pregnancy shall be allowed to abort till the present barrier in accordance with the present laws</li>
                     <li>But along with a check which requires the patients to prove not to have determined the sex of the baby for any abortions after 14 weeks as that is the earliest point to determine the sex of a foetus. Though this is an impractical implementation now, this scheme might be successful when implemented after a period with rigorous awareness campaigns able to break myths of stigma added to having a girl child among the Indian society.</li>
                   </ul>
-                  <a href="#">
-                      <img class="img-responsive" src="../img/postimgs/abortion1.jpeg" alt="">
+                  <a>
+                      <img onclick="openModal();currentSlide(2)" class="hover-shadow img-responsive" src="../img/postimgs/abortion1.jpeg" alt="">
                   </a>
 
                     <hr>
@@ -358,6 +358,41 @@ c-13 0 -30 -4 -38 -9z"/>
             </div>
         </div>
     </footer>
+    
+    <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="../img/postimgs/abortion.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="../img/postimgs/abortion1.jpeg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="../img/postimgs/abortion.jpeg" onclick="currentSlide(1)" alt="">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../img/postimgs/abortion1.jpeg" onclick="currentSlide(2)" alt="">
+    </div>
+  </div>
+</div>
 
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
