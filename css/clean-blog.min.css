@@ -517,3 +517,7 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+tr td li {
+  text-align: justify;
+}
